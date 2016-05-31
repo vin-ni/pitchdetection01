@@ -1,0 +1,1 @@
+function init(){try{window.AudioContext=window.AudioContext||window.webkitAudioContext,context=new AudioContext}catch(t){alert("Web Audio API is not supported in this browser")}}var context;window.addEventListener("load",init,!1);
